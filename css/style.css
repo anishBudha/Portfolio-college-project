@@ -1,0 +1,585 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  padding: 40px 60px;
+  background-color: #eeee;
+}
+
+.bar {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.home-btn {
+  text-decoration: line-through;
+}
+
+nav ul li a:hover {
+  text-decoration: line-through black;
+}
+
+.hamburger {
+  display: none;
+}
+.info {
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info p {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: solid 0.5px;
+  display: flex;
+  justify-content: center;
+}
+
+.info img {
+  width: 500px;
+  height: 500px;
+  padding: 15px;
+  border-top: solid 0.5px;
+  border-bottom: solid 0.5px;
+  object-fit: contain;
+}
+
+.text-info h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.text-info a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.text-info a:hover,
+.text-info a:focus {
+  text-decoration: line-through;
+}
+
+#about {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+  padding: 40px 60px;
+}
+
+.text {
+  width: 50%;
+}
+
+.table {
+  width: 50%;
+  margin-left: 200px;
+}
+
+#about h1 {
+  border-top: solid 0.5px;
+  border-bottom: solid 0.5px;
+  width: auto;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.text p {
+  margin: 20px 0;
+}
+
+td {
+  padding: 10px 0;
+  width: 250px;
+}
+
+#education {
+  padding: 40px 60px;
+  background-color: #eeee;
+  font-family: "Montserrat", sans-serif;
+}
+
+.high-school {
+  margin: 20px 0;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  line-height: 1.5;
+}
+.high-school h1,
+.college h1 {
+  border-bottom: solid 0.5px;
+  margin-bottom: 10px;
+}
+
+.college {
+  margin: 20px 0;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  line-height: 1.5;
+}
+
+#skills {
+  padding: 40px 60px;
+  background-color: #dddd;
+  font-family: "Montserrat", sans-serif;
+}
+
+.col-1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.web,
+.security,
+.graphic,
+.game {
+  width: 500px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+}
+
+.web h1,
+.security h1,
+.graphic h1,
+.game h1 {
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: 3.2rem;
+  border-top: solid 0.5px;
+  border-bottom: solid 0.5px;
+}
+
+.col-2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#contact {
+  padding: 40px 60px;
+  background-color: #eeee;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-1 {
+  width: 30%;
+  height: 550px;
+  position: relative;
+}
+
+.contact-1 h1 {
+  font-size: 4rem;
+  margin-bottom: 80px;
+}
+
+.contact-1 hr {
+  height: 0.1rem;
+  background-color: black;
+  margin: 30px 0;
+}
+
+.contact-1 .icons {
+  position: absolute;
+  bottom: 0px;
+}
+
+.icons i {
+  font-size: 2rem;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.icons a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-2 {
+  width: 50%;
+  height: auto;
+}
+
+.contact-2 h1 {
+  margin-bottom: 20px;
+}
+
+.row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-2 p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.contact-2 .input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.radio {
+  margin-right: 10px;
+}
+
+#other-input {
+  margin-top: 20px;
+}
+
+.other-none {
+  display: none;
+}
+
+.other-block {
+  display: block;
+}
+
+.message {
+  margin-top: 10px;
+}
+
+textarea {
+  border: none;
+  width: 100%;
+  resize: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #dddd;
+}
+
+#submit {
+  padding: 10px 40px;
+  margin-top: 10px;
+  border: solid 2px black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  color: white;
+  background-color: black;
+}
+
+#footer {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #dddd;
+}
+
+#footer h1 {
+  font-size: 1.2rem;
+}
+
+.copyright {
+  display: flex;
+}
+.copyright i {
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+button a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .notactive {
+    display: none;
+  }
+
+  .navbar ul {
+    position: absolute;
+    flex-direction: column;
+    border: solid;
+    right: 20px;
+    top: 30px;
+    background-color: #dddd;
+    opacity: 0.9;
+    padding: 10px 10px 0;
+    position: fixed;
+    z-index: 2;
+  }
+  .home-btn {
+    text-decoration: none;
+  }
+
+  .navbar li {
+    margin-bottom: 20px;
+    border: solid;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  #main hr {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .bar {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #dddd;
+    opacity: 1;
+  }
+
+  #main {
+    position: relative;
+    height: 100vh;
+    padding: 10px 20px;
+  }
+
+  .text-info h1 {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    z-index: 1;
+  }
+  .info img {
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 20px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .text-info a {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    top: 580px;
+    right: 50px;
+    border: solid;
+    border-radius: 20px;
+  }
+
+  .text-info a:hover {
+    text-decoration: none;
+  }
+
+  .resume-btn {
+    margin-right: 220px;
+  }
+  .info p {
+    font-size: 30px;
+    border: none;
+    text-decoration: underline;
+  }
+
+  #about {
+    padding: 10px;
+  }
+  #about h1 {
+    font-size: 20px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .table {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #about p {
+    font-size: 10px;
+  }
+  table td {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #education {
+    padding: 10px;
+  }
+
+  #education h1 {
+    font-size: 20px;
+  }
+  #education h3 {
+    font-size: 15px;
+  }
+  #education p {
+    font-size: 10px;
+  }
+
+  #skills {
+    padding: 10px;
+  }
+  #skills h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #skills p {
+    font-size: 10px;
+  }
+
+  #skills .col-1,
+  #skills .col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #skills .web,
+  #skills .security,
+  #skills .graphic,
+  #skills .game {
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact-1 {
+    display: none;
+  }
+  .contact-2 {
+    width: 100%;
+  }
+
+  .contact-2 h1 {
+    font-size: 20px;
+  }
+  .contact-2 p {
+    font-size: 14px;
+  }
+  .contact-2 .input {
+    width: 380px;
+  }
+
+  .row-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  .radio {
+    font-size: 10px;
+  }
+
+  #footer {
+    padding: 10px;
+    justify-content: center;
+  }
+  #footer p {
+    font-size: 8px;
+  }
+  #footer h1 {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+}
