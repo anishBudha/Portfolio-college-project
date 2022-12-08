@@ -163,8 +163,8 @@ td {
 .security,
 .graphic,
 .game {
-  width: 500px;
-  height: 300px;
+  width: 31.25rem;
+  height: 18.75rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 40px;
 }
@@ -249,7 +249,7 @@ td {
 }
 
 .contact-2 .input {
-  width: 300px;
+  width: 18.75rem;
   height: 30px;
   border: none;
   outline: none;
