@@ -115,7 +115,7 @@ function validatePostalCode() {
 function validateMessage() {
   const message = document.getElementById("message");
   if (nullChecker(message, "Message")) {
-    if (address.value.length < 10) {
+    if (message.value.length < 10) {
       messages.push("Proper message is required");
     }
   }
