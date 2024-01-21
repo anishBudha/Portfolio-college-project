@@ -1,5 +1,5 @@
 # College Portfolio Project
-[anishbudha](anishbudha.com.np)
+[anishbudha](http://anishbudha.com.np/)
 - Minimalist (lines)
 - html and css
 - form and form validation
